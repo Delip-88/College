@@ -53,35 +53,37 @@
 // }
 
 
+
+
 // Question 3
 
-using System;
+// using System;
 
-public class Person
-{
-    // Private field
-    private string _name;
+// public class Person
+// {
+//     // Private field
+//     private string _name;
 
-    // Public property
-    public string Name
-    {
-        get { return _name; }   // Getter
-        set { _name = value; }  // Setter
-    }
-}
+//     // Public property
+//     public string Name
+//     {
+//         get { return _name; }   // Getter
+//         set { _name = value; }  // Setter
+//     }
+// }
 
-class Program
-{
-    static void Main()
-    {
-        // Create an instance of Person
-        Person person = new()
-        {
-            // Set the value of the Name property
-            Name = "Alice"
-        };
+// class Program
+// {
+//     static void Main()
+//     {
+//         // Create an instance of Person
+//         Person person = new()
+//         {
+//             // Set the value of the Name property
+//             Name = "Alice"
+//         };
 
-        // Get the value of the Name property and print it
-        Console.WriteLine($"Person's name is: {person.Name}");
-    }
-}
+//         // Get the value of the Name property and print it
+//         Console.WriteLine($"Person's name is: {person.Name}");
+//     }
+// }

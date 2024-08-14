@@ -8,3 +8,7 @@
     a. +(add two time objects on 24 hours clock)
     
     b. < (compare two time objects)
+
+17. Write a  c# program that will read college name from the keyboard and display it in keyboard, the program should throw an exception when the length of name is more than 10 character
+
+18. Write a c# program that will read balance and withdraw amount from keyboard and display the remaining balance on screen of balance is greater than withdraw amount otherwise throw an ApplicationException with appropriate message.[4]

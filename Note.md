@@ -75,15 +75,16 @@
         }
     ### Why Namespacce is used?
     * __Organization__ : organize large project code by __grouping related class, interface, enum.__
-    * __Avoiding name confilice__ : revent nameing conflicts by differentiating between items that have teh same name but reside in different namespaces.
+    * __Avoiding name confilice__ : revent nameing conflicts by differentiating between items that have the same name but reside in different namespaces.
     * __Readablility and maintenance__ : makes code more readable and easier to maintain.
 
 ## Parameter
 * Defines the set of argument that must be provided for method.
+```c#
     static void MyMethod(string fname){
         Console.WriteLine(fname + "REfsnes");
     }
-
+```
 ## Out modifieer 
     is used to get multiple return value back from the method.
 
@@ -101,7 +102,7 @@
 * __System.Collection.Generic__
 
     ### Generics classes
-    * The generic class can be defined by outtin hte <T> sign after teh class name.
+    * The generic class can be defined by outtin hte <T> sign after the class name.
     * The collections framework uses the concept of Generics in C#.
 
 
@@ -115,3 +116,64 @@
 * Also known as map or hash table.
 * Dictionary is a generic collection which is generally used to store key/value pairs.
 * In Dictionary , the key cannot 
+
+## Boxing nd UnBoxing 
+* Boxing is the act of converting value type instance to reerence type instance
+``` c#
+int a =3;
+Object obj = a;
+Console.WriteLine(obj);
+```
+
+* UnBoxing reverse the operation , by casting the object back to the original value type.
+* Requres explicit cast.
+``` C#
+int a =3;
+Object obj = a
+int y= (int)obj;
+Console.WriteLine(y)
+```
+
+#### Memory Allocation
+```
+    stack memory            Heap Memory
+        x
+    ------------
+    |   20      |
+    ------------
+        obj                 0x10000001
+    ------------            ----------
+    |0x10000001| --------->|    20    |
+    ------------            ----------
+        y                        |
+    ------------                 | 
+    |    20     |<------------------  
+    ------------
+        
+```
+
+## Structure 
+* Structure are used to hold data of various data type into single variable
+* struct keyword is used for creating structure.
+* Structure cannot inherit other structure.
+* Structure cannot inherit other structure.
+* Structure member cannot be specified as abstract ,sealed ,virtual.
+
+````
+# Note :
+classes are reference types and structs are value types structures don't support inheritance structures cannot have default constructor.
+````
+| *STRUCT*                                             | *Class*                                                                 |
+|--------------------------------------------------------|----------------------------------------------------------------------------|
+| Lightweight data structures, simple objects            | Complex objects, behavior, inheritance                                     |
+| Members are public by default                          | Members are private by default                                             |
+| Does not support inheritance                           | Supports single and multiple inheritance                                   |
+| Creates a copy of the entire struct                    | Copies the reference, not the object                                       |
+| Efficient for small, frequently used objects           | Overhead due to heap allocation and reference handling                     |
+| Can be made nullable                                   | Nullable by default                                                        |
+
+## Exception Handling
+* The exception handling in C# is one of the powerful mechanisms to handle the runtime errors so that normal flow of the application can be maintained.
+* EH define alternative ways so that the program can execute successfully.
+* Java EH is managed via five keywords: __try, catch, throw, throws__ and __final.__
+
