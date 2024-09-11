@@ -1,22 +1,28 @@
 // using System;
 
-// sealed class Animal
+// class Animal
 // {
-//     public void eat(){
+//     public void eat()
+//     {
 //         Console.WriteLine("I am eating");
 
 //     }
-//    sealed  class Dog : Animal{
-//         public void bark(){
+//     sealed class Dog : Animal
+//     {
+//         public void bark()
+//         {
 //             Console.WriteLine("I am barking");
 //         }
 //     }
-//     class Bulldog : Dog{
-//         public void bark(){
+//     class Bulldog : Dog
+//     {
+//         public void bark()
+//         {
 //             Console.WriteLine("Wauf Wauf Wauf");
 //         }
 //     }
-//     static void Main(string[] args){
+//     static void Main(string[] args)
+//     {
 //         Dog d = new Dog();
 //         // d.eat();
 //         d.bark();

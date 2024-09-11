@@ -18,3 +18,18 @@
 
 //     }
 // }
+
+// class JaggedArray{
+//     public static void Main(string[] args)
+//     {
+//         int [][] arr= [[1,2,3], [3,4,5,3,2], [1,2,34,4]];
+//         for (int i=0; i<arr.Length; i++){
+//             int sum = 0;
+//             for(int j=0; j<arr[i].Length ; j++){
+//                 sum += arr[i][j];
+//             }
+//             System.Console.WriteLine(sum);
+//         }
+
+//     }
+// }

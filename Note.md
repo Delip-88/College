@@ -177,3 +177,23 @@ classes are reference types and structs are value types structures don't support
 * EH define alternative ways so that the program can execute successfully.
 * Java EH is managed via five keywords: __try, catch, throw, throws__ and __final.__
 
+## Generic Delegate
+* The Generic Delegates in c# were introduced as part of .NET Framework 3.5 which doesnt require defining the delegate instance in order to invoke the ethods.
+* C# has 3 built in generic Delgate
+    1. Func Delegate
+    2. Action Delegate
+    3. Predicate Delegate
+
+
+## Anonymous Method
+* As the name suggests, an enonymous method is a method without a name.
+* Anonymous methods in C# can be defined using the delegate keyword and can be assigned to a variable of delegate typep.
+``
+    1. Anynomous method can be defined using the delegate keyword.
+    2. Anonymous method must be assigned to a delegate.
+    3. Anonymous method can be passed as parameter.
+    4. Anonymous method can access outer vairables or functions.
+    5. Anonymous mehtod can be used as event handlers.
+``
+
+

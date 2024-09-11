@@ -16,7 +16,7 @@
 //     static void Main(string[] args) {
 //         Person person = new()
 //         {
-//             Age = 1240
+//             Age = 23
 //         };
 //         Console.WriteLine(person.Age);
 
