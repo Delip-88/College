@@ -4,7 +4,7 @@
 // {
 //      static void Main(string[] args)
 //     {
-//         int i,j,num;
+//         int i,j;
 //         Console.WriteLine("Table ...... : ");
 
 //         for ( i = 1; i <= 10; i++)
